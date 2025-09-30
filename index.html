@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profil Ridho Muhammad Zahran</title>
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png">
+
+  <!-- CSS eksternal -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+  <!-- Judul -->
+  <h1>Profil Saya</h1>
+
+  <!-- Foto -->
+  <img src="foto.jpg" alt="Foto Ridho" class="foto">
+
+  <!-- Identitas -->
+  <h2>Ridho Muhammad Zahran / 102022400293 / Fakultas Rekayasa Industri / Sistem Informasi</h2>
+
+  <!-- Sosial Media -->
+  <h3>Temukan saya di</h3>
+  <div class="sosmed">
+    <div class="item">
+      <a href="https://github.com/ridhozahrann" target="_blank">
+        <img src="github.png" alt="Github" class="icon">
+      </a>
+      <p>Github</p>
+    </div>
+    <div class="item">
+      <a href="https://www.instagram.com/ridhozahrann/" target="_blank">
+        <img src="instagram.png" alt="Instagram" class="icon">
+      </a>
+      <p>Instagram</p>
+    </div>
+    <div class="item">
+      <a href="https://www.linkedin.com/in/ridho-muhammad-zahran-a31b351b0/" target="_blank">
+        <img src="linkedin.png" alt="LinkedIn" class="icon">
+      </a>
+      <p>LinkedIn</p>
+    </div>
+  </div>
+
+  <!-- Tabel Keahlian -->
+  <h3>Keahlian Saya</h3>
+  <table>
+    <tr>
+      <th>Bidang</th>
+      <th>Tingkat</th>
+    </tr>
+    <tr>
+      <td>C#</td>
+      <td>Dasar</td>
+    </tr>
+    <tr>
+      <td>Java</td>
+      <td>Dasar</td>
+    </tr>
+    <tr>
+      <td>Desain Grafis</td>
+      <td>Menengah</td>
+    </tr>
+  </table>
+
+  <!-- Date & Time -->
+  <footer>
+    <p>Halaman ini terakhir diakses pada: <span id="datetime"></span></p>
+  </footer>
+
+  <script>
+    // Menampilkan date & time
+    document.getElementById("datetime").innerHTML = new Date().toLocaleString();
+  </script>
+</body>
+</html>
